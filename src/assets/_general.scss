@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: $black;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: $white;
+  border-radius: 5px;
+  padding: 24px;
+  box-shadow: -1px 5px 15px 5px rgb(0 0 0 / 5%);
+
+  @media screen and (max-width: 768px) {
+    padding: 30px 15px;
+  }
+}
+
+.p-password {
+  width: 100%;
+
+  .p-inputtext {
+    width: 100%;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,52 @@
+.btn__ {
+  &primary {
+    width: 100%;
+    color: $white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $color-primary;
+    border-radius: 5px;
+    padding: 10px rem15px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border-color: $color-primary;
+      color: $color-primary;
+      background-color: $white;
+    }
+  }
+
+  &secondary {
+    width: 100%;
+    color: $white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $color-secondary;
+    border-radius: 5px;
+    padding: 10px rem15px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border-color: $color-secondary;
+      color: $color-secondary;
+      background-color: $white;
+    }
+  }
+
+  &ternary {
+    width: 100%;
+    color: $white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $color-ternary;
+    border-radius: 5px;
+    padding: 10px rem15px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border-color: $color-ternary;
+      color: $color-ternary;
+      background-color: $white;
+    }
+  }
+}
